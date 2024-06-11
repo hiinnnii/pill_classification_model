@@ -5,8 +5,9 @@
 
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
 #라이브러리
-## torch 관련 라이브러리
+[torch 관련 라이브러리]
 from torchvision import models, transforms
 from torch.utils.data import DataLoader, Dataset
 import torch
@@ -14,7 +15,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR
 from torchsummary import summary
-## 일반 라이브러리
+[일반 라이브러리]
 import argparse
 import numpy as np
 import random
@@ -26,7 +27,24 @@ from tqdm import tqdm
 from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 
+------------------
 
+#데이터셋
+
+train / test dataset 모두 직접 촬영
+0 ~ 9까지 총 10개 class 이용
+
+0 : 
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+#사용모델
+
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+#모델 평가
 
 
 
