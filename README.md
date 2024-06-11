@@ -8,10 +8,33 @@
 ------------------
 
 # 2. 필요한 라이브러리
-colab 이용 가능
+colab 이용
 
-colab에서 제공하는 torch
+torch = 2.0.1+cu117
+torchvision = 0.15.2+cu117
 
+[코랩에서 제공하는 라이브러리 이용]
+
+# torch 관련 라이브러리
+* from torchvision import models, transforms
+* from torch.utils.data import DataLoader, Dataset
+* import torch
+* import torch.nn as nn
+* import torchaudio
+* import torch.nn.functional as F
+* from torch.optim.lr_scheduler import MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR
+* from torchsummary import summary
+# 일반 라이브러리
+* import argparse
+* import numpy as np
+* import random
+* import os
+* from PIL import Image
+* import matplotlib.pyplot as plt
+* import time
+* from tqdm import tqdm
+* from sklearn.metrics import f1_score
+* from sklearn.model_selection import train_test_split
 
 ------------------
 
