@@ -6,7 +6,7 @@
 
 ------------------
 
-#라이브러리
+# 라이브러리
 [torch 관련 라이브러리]
 from torchvision import models, transforms
 
@@ -47,7 +47,7 @@ from sklearn.model_selection import train_test_split
 
 ------------------
 
-#데이터셋
+# 데이터셋
 
 train / test dataset 모두 직접 촬영
 0 ~ 9까지 총 10개 class 이용
@@ -58,7 +58,7 @@ train / test dataset 모두 직접 촬영
 ![train_ex]()
 ------------------
 
-#사용모델
+# 사용모델
 
 ResNet 50
 ResNet 18
@@ -70,11 +70,11 @@ Ensemble 모델 사용한 이유 :
 
 ------------------
 
-#모델 평가
+# 모델 평가
 
 ------------------
 
-#추후 개선 사항
+# 추후 개선 사항
 
 [한계]
 * 현재 모델은 10개의 class만 분류할 수 있는 모델
