@@ -39,11 +39,11 @@ train / test dataset 모두 직접 촬영
 
 9 : 코데닝정
 
-## train dataset 예시
-![train_ex]()
+
 ------------------
 
 # 사용모델
+![emsemble_model]()
 
 ResNet 50
 
