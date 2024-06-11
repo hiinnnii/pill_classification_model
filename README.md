@@ -47,7 +47,6 @@ torchvision = 0.15.2+cu117
 # 3. 데이터셋
 
 * train / test dataset 모두 직접 촬영
-
   
 https://drive.google.com/file/d/1vaa-CbI_AYiFQFt3pQOCbsfG-Uo7_1t2/view?usp=drive_link
   
@@ -73,6 +72,10 @@ https://drive.google.com/file/d/1vaa-CbI_AYiFQFt3pQOCbsfG-Uo7_1t2/view?usp=drive
 
 9 : 코데닝정
 
+* 학습 데이터 수는 873개 
+* 검증 데이터 수는 219개 
+* 테스트 데이터 수는 294개
+  
 ## Data agmentation
 ![aumentation](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_aumentation.png)
 ------------------
@@ -116,5 +119,6 @@ test data중 유일하게 후레쉬 이용해 촬영한 데이터가 들어있�
 * class 늘리기
 * 알약의 음각으로 구분할 수 있도록 더 많은 train data set 넣기
 * train / test 직접 촬영한 것이라 model의 성능이 좋은 것으로 판단 -> test에 더 다양한 data를 넣거나, test dataset을 구성할 때 타인이 찍어준 것으로 test dataset을 구성해볼 필요가 있음
+* trian data set에 다양한 조명 (후레쉬 등)을 활용한 데이터 추가
 
 
