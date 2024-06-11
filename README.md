@@ -4,28 +4,46 @@
 약 봉지를 잃어버린 경우 약에 대한 정보를 알지 못하는 문제가 발생한다. 따라서 이를 해결하기 위해 약의 사진을 보고 분류하는 모델을 제작하여 이를 해결하고자 한다.
 
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+------------------
 
 #라이브러리
 [torch 관련 라이브러리]
 from torchvision import models, transforms
+
 from torch.utils.data import DataLoader, Dataset
+
 import torch
+
 import torch.nn as nn
+
 import torch.nn.functional as F
+
 from torch.optim.lr_scheduler import MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR
+
 from torchsummary import summary
+
 [일반 라이브러리]
+
 import argparse
+
 import numpy as np
+
 import random
+
 import os
+
 from PIL import Image
+
 import matplotlib.pyplot as plt
+
 import time
+
 from tqdm import tqdm
+
 from sklearn.metrics import f1_score
+
 from sklearn.model_selection import train_test_split
+
 
 ------------------
 
@@ -36,15 +54,35 @@ train / test dataset 모두 직접 촬영
 
 0 : 
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+## train dataset 예시
+![train_ex]()
+------------------
 
 #사용모델
 
+ResNet 50
+ResNet 18
+VGG 16
+더한 Ensemble 모델 활용
+
+Ensemble 모델 사용한 이유 : 
 
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+------------------
 
 #모델 평가
 
+------------------
+
+#추후 개선 사항
+
+[한계]
+* 현재 모델은 10개의 class만 분류할 수 있는 모델
+* 알약의 음각으로 구분하는 것이 아닌 모양으로 구분
+
+[개선사항]
+* class 늘리기
+* 알약의 음각으로 구분할 수 있도록 더 많은 train data set 넣기
+* train / test 직접 촬영한 것이라 model의 성능이 좋은 것으로 판단 -> test에 더 다양한 data를 넣거나, test dataset을 구성할 때 타인이 찍어준 것으로 test dataset을 구성해볼 필요가 있음
 
 
