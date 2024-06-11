@@ -18,6 +18,8 @@ colab에서 제공하는 torch
 # 3. 데이터셋
 
 * train / test dataset 모두 직접 촬영
+
+  
 https://drive.google.com/file/d/1vaa-CbI_AYiFQFt3pQOCbsfG-Uo7_1t2/view?usp=drive_link
   
 * 0 ~ 9까지 총 10개 class 이용
@@ -64,6 +66,9 @@ https://drive.google.com/file/d/1vaa-CbI_AYiFQFt3pQOCbsfG-Uo7_1t2/view?usp=drive
 ## 각 class별 성능을 확인
 
 ![clas 성능확인](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA.png)
+
+class별 성능 확인 결과 class 6의 성능이 안좋은 것을 확인할 수 있다.
+[원인 분석] test data중 유일하게 후레쉬 이용해 촬영한 데이터가 들어있음을 확인 -> 성능 저하의 원인이 됨
 
 ------------------
 
