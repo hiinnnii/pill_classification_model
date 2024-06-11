@@ -43,7 +43,7 @@ train / test dataset 모두 직접 촬영
 ------------------
 
 # 사용모델
-![emsemble_model]('AIP_기말_Ensemble.png')
+![AIP_기말_Ensemble.png](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_Ensemble.png)'
 
 ResNet 50
 
