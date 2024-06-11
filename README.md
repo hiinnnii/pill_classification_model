@@ -56,10 +56,13 @@ colab에서 제공하는 torch
 ------------------
 
 # 5. 모델 평가
-모델의 accuracy를 기준으로 평가
+## 모델의 accuracy를 기준으로 평가
+
 ![AIP_ablone](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_abalone.png)
 
-각 class별 성능을 확인
+## 각 class별 성능을 확인
+
+![clas 성능확인](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA.png)
 
 ------------------
 
