@@ -18,6 +18,7 @@ colab에서 제공하는 torch
 # 3. 데이터셋
 
 * train / test dataset 모두 직접 촬영
+https://drive.google.com/file/d/1vaa-CbI_AYiFQFt3pQOCbsfG-Uo7_1t2/view?usp=drive_link
   
 * 0 ~ 9까지 총 10개 class 이용
 
