@@ -43,7 +43,7 @@ train / test dataset 모두 직접 촬영
 ------------------
 
 # 사용모델
-![emsemble_model]()
+![emsemble_model]('AIP_기말_Ensemble.png')
 
 ResNet 50
 
