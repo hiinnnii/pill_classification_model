@@ -15,7 +15,7 @@ torchvision = 0.15.2+cu117
 
 [코랩에서 제공하는 라이브러리 이용]
 
-# torch 관련 라이브러리
+## torch 관련 라이브러리
 * from torchvision import models, transforms
 * from torch.utils.data import DataLoader, Dataset
 * import torch
@@ -24,7 +24,7 @@ torchvision = 0.15.2+cu117
 * import torch.nn.functional as F
 * from torch.optim.lr_scheduler import MultiStepLR, StepLR, CyclicLR, CosineAnnealingLR, ExponentialLR
 * from torchsummary import summary
-# 일반 라이브러리
+## 일반 라이브러리
 * import argparse
 * import numpy as np
 * import random
