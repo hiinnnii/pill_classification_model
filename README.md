@@ -4,7 +4,7 @@
 # 1. 문제 정의
 약 봉지를 잃어버린 경우 약에 대한 정보를 알지 못하는 문제가 발생한다. 따라서 이를 해결하기 위해 약의 사진을 보고 분류하는 모델을 제작하여 이를 해결하고자 한다.
 
-
+![flowchart](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_flowchart.png)
 ------------------
 
 # 2. 필요한 라이브러리
@@ -41,7 +41,8 @@ colab에서 제공하는 torch
 
 9 : 코데닝정
 
-
+## Data agmentation
+![aumentation](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_aumentation.png)
 ------------------
 
 # 4. 사용모델
@@ -49,16 +50,14 @@ colab에서 제공하는 torch
 
 * ResNet 50 + ResNet 18 + VGG 16 더한 Ensemble 모델 활용
 
-* Ensemble 모델 사용한 이유 : 성능향상, 과적합 감소 하기 위해 Ensemble 모델을 사용
-
-
+* Ensemble 모델 사용한 이유 : 성능향상, 과적합 감소 시키기 위해 Ensemble 모델을 사용
 
 
 ------------------
 
 # 5. 모델 평가
 모델의 accuracy를 기준으로 평가
-
+![AIP_ablone](https://github.com/hiinnnii/pill_classification_model/blob/main/AIP_%E1%84%80%E1%85%B5%E1%84%86%E1%85%A1%E1%86%AF_abalone.png)
 
 각 class별 성능을 확인
 
